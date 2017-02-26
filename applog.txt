@@ -1,0 +1,417 @@
+TRACE   2017-02-21 15:09:45,577 [main] com.naraikin.Main  - Создание Controller
+TRACE   2017-02-21 15:09:45,591 [main] com.naraikin.Controller  - Контроллер создан с 2 ресурсами
+TRACE   2017-02-21 15:09:45,607 [main] com.naraikin.ResourceHandler  - Создан поток для files/file1.txt
+TRACE   2017-02-21 15:09:45,607 [main] com.naraikin.ResourceHandler  - Создан поток для files/file2.txt
+TRACE   2017-02-21 15:09:45,607 [main] com.naraikin.Controller  - Создан массив потоков
+TRACE   2017-02-21 15:09:45,607 [main] com.naraikin.Controller  - Запуск потоков в массиве
+TRACE   2017-02-21 15:09:45,607 [Thread-0] com.naraikin.ResourceHandler  - Поток запущен Thread-0
+TRACE   2017-02-21 15:09:45,608 [Thread-1] com.naraikin.ResourceHandler  - Поток запущен Thread-1
+TRACE   2017-02-21 15:09:45,609 [Thread-1] com.naraikin.ResourceHandler  - 0 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,609 [Thread-0] com.naraikin.ResourceHandler  - 0 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,610 [Thread-1] com.naraikin.ResourceHandler  - 0 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,610 [Thread-0] com.naraikin.ResourceHandler  - 0 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,610 [Thread-1] com.naraikin.ResourceHandler  - 0 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,610 [Thread-0] com.naraikin.ResourceHandler  - 0 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,610 [Thread-1] com.naraikin.ResourceHandler  - 0 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,610 [Thread-0] com.naraikin.ResourceHandler  - 0 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,610 [Thread-1] com.naraikin.ResourceHandler  - 0 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,611 [Thread-0] com.naraikin.ResourceHandler  - 0 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,611 [Thread-1] com.naraikin.ResourceHandler  - 0 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,611 [Thread-0] com.naraikin.ResourceHandler  - 0 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,611 [Thread-0] com.naraikin.ResourceHandler  - 0 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,612 [Thread-1] com.naraikin.ResourceHandler  - 0 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,613 [Thread-0] com.naraikin.ResourceHandler  - 0 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,614 [Thread-1] com.naraikin.ResourceHandler  - 0 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,614 [Thread-0] com.naraikin.ResourceHandler  - 0 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,614 [Thread-1] com.naraikin.ResourceHandler  - 0 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,614 [Thread-0] com.naraikin.ResourceHandler  - 0 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,614 [Thread-1] com.naraikin.ResourceHandler  - 0 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,614 [Thread-0] com.naraikin.ResourceHandler  - 10 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,615 [Thread-1] com.naraikin.ResourceHandler  - 20 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,615 [Thread-1] com.naraikin.ResourceHandler  - 40 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,615 [Thread-1] com.naraikin.ResourceHandler  - 70 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,615 [Thread-1] com.naraikin.ResourceHandler  - 110 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,615 [Thread-1] com.naraikin.ResourceHandler  - 160 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,616 [Thread-1] com.naraikin.ResourceHandler  - 220 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,616 [Thread-1] com.naraikin.ResourceHandler  - 290 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,616 [Thread-1] com.naraikin.ResourceHandler  - 370 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,616 [Thread-1] com.naraikin.ResourceHandler  - 460 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,616 [Thread-1] com.naraikin.ResourceHandler  - 560 -- Thread-1 -- files/file2.txt
+TRACE   2017-02-21 15:09:45,627 [Thread-0] com.naraikin.ResourceHandler  - 580 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,628 [Thread-0] com.naraikin.ResourceHandler  - 610 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,628 [Thread-0] com.naraikin.ResourceHandler  - 650 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,629 [Thread-0] com.naraikin.ResourceHandler  - 700 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,629 [Thread-0] com.naraikin.ResourceHandler  - 760 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,642 [Thread-0] com.naraikin.ResourceHandler  - 830 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,642 [Thread-0] com.naraikin.ResourceHandler  - 910 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,642 [Thread-0] com.naraikin.ResourceHandler  - 1000 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,643 [Thread-0] com.naraikin.ResourceHandler  - 1100 -- Thread-0 -- files/file1.txt
+TRACE   2017-02-21 15:09:45,643 [main] com.naraikin.Controller  - Выполнение завершено успешно
+TRACE   2017-02-26 17:39:44,955 [main] com.naraikin.Main  - Создание Controller
+TRACE   2017-02-26 17:39:44,989 [main] com.naraikin.Controller  - Контроллер создан с 2 ресурсами
+TRACE   2017-02-26 17:39:45,029 [main] com.naraikin.ResourceHandler  - Создан поток для files/file1.txt
+TRACE   2017-02-26 17:39:45,031 [main] com.naraikin.ResourceHandler  - Создан поток для files/file2.txt
+TRACE   2017-02-26 17:39:45,031 [pool-1-thread-1] com.naraikin.ResourceHandler  - Поток запущен pool-1-thread-1
+TRACE   2017-02-26 17:39:45,032 [pool-1-thread-2] com.naraikin.ResourceHandler  - Поток запущен pool-1-thread-2
+TRACE   2017-02-26 17:39:45,043 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,044 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,044 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,044 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,044 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,045 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,045 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,045 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,046 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,046 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,046 [pool-1-thread-2] com.naraikin.ResourceHandler  - 10 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,047 [pool-1-thread-2] com.naraikin.ResourceHandler  - 30 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,047 [pool-1-thread-2] com.naraikin.ResourceHandler  - 60 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,047 [pool-1-thread-2] com.naraikin.ResourceHandler  - 100 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,047 [pool-1-thread-2] com.naraikin.ResourceHandler  - 150 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,048 [pool-1-thread-2] com.naraikin.ResourceHandler  - 210 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,048 [pool-1-thread-2] com.naraikin.ResourceHandler  - 280 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,048 [pool-1-thread-2] com.naraikin.ResourceHandler  - 360 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,049 [pool-1-thread-2] com.naraikin.ResourceHandler  - 450 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,049 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:39:45,050 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,050 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,051 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,051 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,051 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,052 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,052 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,052 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,053 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,053 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,053 [pool-1-thread-1] com.naraikin.ResourceHandler  - 560 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,053 [pool-1-thread-1] com.naraikin.ResourceHandler  - 580 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,054 [pool-1-thread-1] com.naraikin.ResourceHandler  - 610 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,054 [pool-1-thread-1] com.naraikin.ResourceHandler  - 650 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,054 [pool-1-thread-1] com.naraikin.ResourceHandler  - 700 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,055 [pool-1-thread-1] com.naraikin.ResourceHandler  - 760 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,055 [pool-1-thread-1] com.naraikin.ResourceHandler  - 830 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,055 [pool-1-thread-1] com.naraikin.ResourceHandler  - 910 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,056 [pool-1-thread-1] com.naraikin.ResourceHandler  - 1000 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:39:45,056 [pool-1-thread-1] com.naraikin.ResourceHandler  - 1100 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,350 [main] com.naraikin.Main  - Создание Controller
+TRACE   2017-02-26 17:41:23,371 [main] com.naraikin.Controller  - Контроллер создан с 2 ресурсами
+TRACE   2017-02-26 17:41:23,408 [main] com.naraikin.ResourceHandler  - Создан поток для files/file1.txt
+TRACE   2017-02-26 17:41:23,418 [main] com.naraikin.ResourceHandler  - Создан поток для files/file2.txt
+TRACE   2017-02-26 17:41:23,419 [pool-1-thread-1] com.naraikin.ResourceHandler  - Поток запущен pool-1-thread-1
+TRACE   2017-02-26 17:41:23,422 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,422 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,422 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,423 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,423 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,424 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,424 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,425 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,425 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,426 [pool-1-thread-2] com.naraikin.ResourceHandler  - Поток запущен pool-1-thread-2
+TRACE   2017-02-26 17:41:23,427 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,428 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,428 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,428 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,428 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,428 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,429 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,429 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,427 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,429 [pool-1-thread-1] com.naraikin.ResourceHandler  - 10 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,430 [pool-1-thread-1] com.naraikin.ResourceHandler  - 30 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,430 [pool-1-thread-1] com.naraikin.ResourceHandler  - 60 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,430 [pool-1-thread-1] com.naraikin.ResourceHandler  - 100 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,430 [pool-1-thread-1] com.naraikin.ResourceHandler  - 150 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,431 [pool-1-thread-1] com.naraikin.ResourceHandler  - 210 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,431 [pool-1-thread-1] com.naraikin.ResourceHandler  - 280 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,431 [pool-1-thread-1] com.naraikin.ResourceHandler  - 360 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,432 [pool-1-thread-1] com.naraikin.ResourceHandler  - 450 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,432 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:41:23,429 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,439 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,439 [pool-1-thread-2] com.naraikin.ResourceHandler  - 560 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,440 [pool-1-thread-2] com.naraikin.ResourceHandler  - 580 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,440 [pool-1-thread-2] com.naraikin.ResourceHandler  - 610 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,440 [pool-1-thread-2] com.naraikin.ResourceHandler  - 650 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,441 [pool-1-thread-2] com.naraikin.ResourceHandler  - 700 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,441 [pool-1-thread-2] com.naraikin.ResourceHandler  - 760 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,441 [pool-1-thread-2] com.naraikin.ResourceHandler  - 830 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,441 [pool-1-thread-2] com.naraikin.ResourceHandler  - 910 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,442 [pool-1-thread-2] com.naraikin.ResourceHandler  - 1000 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:41:23,442 [pool-1-thread-2] com.naraikin.ResourceHandler  - 1100 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,681 [main] com.naraikin.Main  - Создание Controller
+TRACE   2017-02-26 17:42:32,704 [main] com.naraikin.Controller  - Контроллер создан с 2 ресурсами
+TRACE   2017-02-26 17:42:32,728 [main] com.naraikin.ResourceHandler  - Создан поток для files/file1.txt
+TRACE   2017-02-26 17:42:32,730 [main] com.naraikin.ResourceHandler  - Создан поток для files/file2.txt
+TRACE   2017-02-26 17:42:32,730 [pool-1-thread-1] com.naraikin.ResourceHandler  - Поток запущен pool-1-thread-1
+TRACE   2017-02-26 17:42:32,730 [pool-1-thread-2] com.naraikin.ResourceHandler  - Поток запущен pool-1-thread-2
+TRACE   2017-02-26 17:42:32,732 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,732 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,733 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,733 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,733 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,733 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,734 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,734 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,734 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,734 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,735 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,736 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,736 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,737 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,737 [pool-1-thread-1] com.naraikin.ResourceHandler  - 10 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,737 [pool-1-thread-2] com.naraikin.ResourceHandler  - 10 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,738 [pool-1-thread-1] com.naraikin.ResourceHandler  - 30 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,740 [pool-1-thread-2] com.naraikin.ResourceHandler  - 30 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,740 [pool-1-thread-1] com.naraikin.ResourceHandler  - 60 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,740 [pool-1-thread-2] com.naraikin.ResourceHandler  - 60 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,741 [pool-1-thread-1] com.naraikin.ResourceHandler  - 100 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,741 [pool-1-thread-2] com.naraikin.ResourceHandler  - 100 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,741 [pool-1-thread-1] com.naraikin.ResourceHandler  - 150 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,741 [pool-1-thread-2] com.naraikin.ResourceHandler  - 150 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,741 [pool-1-thread-1] com.naraikin.ResourceHandler  - 210 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,742 [pool-1-thread-2] com.naraikin.ResourceHandler  - 210 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,742 [pool-1-thread-1] com.naraikin.ResourceHandler  - 280 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,742 [pool-1-thread-2] com.naraikin.ResourceHandler  - 290 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,742 [pool-1-thread-1] com.naraikin.ResourceHandler  - 370 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,742 [pool-1-thread-2] com.naraikin.ResourceHandler  - 390 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,743 [pool-1-thread-2] com.naraikin.ResourceHandler  - 420 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,743 [pool-1-thread-1] com.naraikin.ResourceHandler  - 510 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,743 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,743 [pool-1-thread-1] com.naraikin.ResourceHandler  - 650 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 17:42:32,744 [pool-1-thread-2] com.naraikin.ResourceHandler  - 700 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,744 [pool-1-thread-2] com.naraikin.ResourceHandler  - 760 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,744 [pool-1-thread-2] com.naraikin.ResourceHandler  - 830 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,744 [pool-1-thread-2] com.naraikin.ResourceHandler  - 910 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,745 [pool-1-thread-2] com.naraikin.ResourceHandler  - 1000 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 17:42:32,745 [pool-1-thread-2] com.naraikin.ResourceHandler  - 1100 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,059 [main] com.naraikin.Main  - Создание Controller
+TRACE   2017-02-26 18:29:07,081 [main] com.naraikin.Controller  - Контроллер создан с 2 ресурсами
+TRACE   2017-02-26 18:29:07,106 [main] com.naraikin.ResourceHandler  - Создан поток для files/file1.txt
+TRACE   2017-02-26 18:29:07,107 [main] com.naraikin.ResourceHandler  - Создан поток для files/file2.txt
+TRACE   2017-02-26 18:29:07,108 [pool-1-thread-1] com.naraikin.ResourceHandler  - Поток запущен pool-1-thread-1
+TRACE   2017-02-26 18:29:07,110 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,110 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,110 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,111 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,111 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,111 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,112 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,112 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,112 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,113 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,113 [pool-1-thread-1] com.naraikin.ResourceHandler  - 10 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,113 [pool-1-thread-1] com.naraikin.ResourceHandler  - 30 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,114 [pool-1-thread-1] com.naraikin.ResourceHandler  - 60 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,114 [pool-1-thread-1] com.naraikin.ResourceHandler  - 100 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,114 [pool-1-thread-1] com.naraikin.ResourceHandler  - 150 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,115 [pool-1-thread-1] com.naraikin.ResourceHandler  - 210 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,115 [pool-1-thread-1] com.naraikin.ResourceHandler  - 280 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,115 [pool-1-thread-1] com.naraikin.ResourceHandler  - 360 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,115 [pool-1-thread-1] com.naraikin.ResourceHandler  - 450 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,116 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 18:29:07,117 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,118 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,118 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,118 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,118 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,121 [pool-1-thread-2] com.naraikin.ResourceHandler  - Поток запущен pool-1-thread-2
+TRACE   2017-02-26 18:29:07,128 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,129 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,129 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,129 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,129 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,129 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,129 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,130 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,130 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,130 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,130 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,129 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,131 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,131 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,132 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,132 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,131 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,132 [pool-1-thread-2] com.naraikin.ResourceHandler  - 560 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,134 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,134 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,134 [pool-1-thread-2] com.naraikin.ResourceHandler  - 580 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,135 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,135 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,135 [pool-1-thread-2] com.naraikin.ResourceHandler  - 610 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,135 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,135 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,135 [pool-1-thread-2] com.naraikin.ResourceHandler  - 650 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,135 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,135 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,136 [pool-1-thread-2] com.naraikin.ResourceHandler  - 700 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,136 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,136 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,136 [pool-1-thread-2] com.naraikin.ResourceHandler  - 760 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,136 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,136 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,136 [pool-1-thread-2] com.naraikin.ResourceHandler  - 830 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,136 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,137 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,137 [pool-1-thread-2] com.naraikin.ResourceHandler  - 910 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,137 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,137 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,137 [pool-1-thread-2] com.naraikin.ResourceHandler  - 1000 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,137 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,137 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 18:29:07,137 [pool-1-thread-2] com.naraikin.ResourceHandler  - 1100 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 18:29:07,137 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,070 [main] com.naraikin.Main  - Создание Controller
+TRACE   2017-02-26 19:30:44,090 [main] com.naraikin.Controller  - Контроллер создан с 2 ресурсами
+TRACE   2017-02-26 19:30:44,115 [main] com.naraikin.ResourceHandler  - Создан поток для files/file1.txt
+TRACE   2017-02-26 19:30:44,116 [main] com.naraikin.ResourceHandler  - Создан поток для files/file2.txt
+TRACE   2017-02-26 19:30:44,116 [pool-1-thread-1] com.naraikin.ResourceHandler  - Поток запущен pool-1-thread-1
+TRACE   2017-02-26 19:30:44,116 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,116 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,116 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,116 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,117 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,117 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,117 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,117 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,117 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,117 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,118 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,118 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,118 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,118 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,118 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,118 [pool-1-thread-2] com.naraikin.ResourceHandler  - Поток запущен pool-1-thread-2
+TRACE   2017-02-26 19:30:44,118 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,119 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,119 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,120 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,120 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,120 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,118 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,122 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,120 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,122 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,123 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,123 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,123 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,123 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,123 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,123 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,124 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,124 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,124 [pool-1-thread-1] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,124 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,124 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,124 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,125 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,125 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,125 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,125 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,125 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,126 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,126 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,126 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,126 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,126 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,126 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,126 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,127 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,127 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,127 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,127 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,127 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,137 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,137 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,137 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,137 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,137 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,137 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,138 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,138 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,138 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,138 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,138 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,138 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,138 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,138 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,139 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,139 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,139 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,139 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,139 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,139 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,139 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,139 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,140 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,140 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,140 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,140 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,140 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,140 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,140 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,140 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,140 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,141 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,141 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,141 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,141 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,141 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,141 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,142 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,142 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,142 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,143 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,143 [pool-1-thread-2] com.naraikin.ResourceHandler  - 0 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,143 [pool-1-thread-2] com.naraikin.ResourceHandler  - 10 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,143 [pool-1-thread-2] com.naraikin.ResourceHandler  - 30 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,144 [pool-1-thread-2] com.naraikin.ResourceHandler  - 60 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,144 [pool-1-thread-2] com.naraikin.ResourceHandler  - 100 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,144 [pool-1-thread-2] com.naraikin.ResourceHandler  - 150 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,144 [pool-1-thread-2] com.naraikin.ResourceHandler  - 210 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,145 [pool-1-thread-2] com.naraikin.ResourceHandler  - 280 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,145 [pool-1-thread-2] com.naraikin.ResourceHandler  - 360 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,146 [pool-1-thread-2] com.naraikin.ResourceHandler  - 450 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,146 [pool-1-thread-2] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-2 -- files/file2.txt
+TRACE   2017-02-26 19:30:44,146 [pool-1-thread-1] com.naraikin.ResourceHandler  - 550 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,141 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,147 [pool-1-thread-1] com.naraikin.ResourceHandler  - 560 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,147 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,147 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,147 [pool-1-thread-1] com.naraikin.ResourceHandler  - 580 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,147 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,148 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,148 [pool-1-thread-1] com.naraikin.ResourceHandler  - 610 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,148 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,148 [pool-1-thread-1] com.naraikin.ResourceHandler  - 650 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,148 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,149 [pool-1-thread-1] com.naraikin.ResourceHandler  - 700 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,149 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,149 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,149 [pool-1-thread-1] com.naraikin.ResourceHandler  - 760 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,149 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,149 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,149 [pool-1-thread-1] com.naraikin.ResourceHandler  - 830 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,149 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,150 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,150 [pool-1-thread-1] com.naraikin.ResourceHandler  - 910 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,150 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,151 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,151 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,151 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,151 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,151 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,151 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,151 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,151 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,152 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,152 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,152 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,152 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,152 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,152 [pool-1-thread-1] com.naraikin.ResourceHandler  - 1000 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,152 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,153 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
+TRACE   2017-02-26 19:30:44,153 [pool-1-thread-1] com.naraikin.ResourceHandler  - 1100 -- pool-1-thread-1 -- files/file1.txt
+TRACE   2017-02-26 19:30:44,153 [main] com.naraikin.Controller  - Поток выполняется java.util.concurrent.FutureTask@65b3120a
